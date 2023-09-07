@@ -1,0 +1,116 @@
+*{
+   margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    position: sticky !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0,.5);
+
+}
+#project1{
+    
+    color: yellow ;
+  font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card{
+    background-color: #0a0a0a;
+    color: white;
+    margin-top: 70px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 7px black;
+}
+.navbar-toggler{
+    background-color:aqua !important;
+    padding: 2px 6px 2px 6px !important;    
+}
+#project{
+  
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)),url(../others/project0.jpg);
+  background-position: center;
+  background-size: cover;
+ 
+  background-repeat: no-repeat;
+    
+    }
+    
+
+.TextArea{
+    width: 100%;
+  height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)),url(../others/back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    
+    
+    
+
+
+}
+#TextArea2 span{
+    color: chartreuse;
+}
+#TextArea2 p{
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    top: 50%;
+    font-size: 40px;
+    opacity: 0;
+    animation: text 5s ease-in-out;
+
+}
+@keyframes text{
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+
+    
+}
+#TextArea2 p:nth-child(1){
+    animation-delay: 0s;
+}
+#TextArea2 p:nth-child(2){
+    animation-delay: 5s;
+}
+#TextArea2 p:nth-child(3){
+    animation-delay: 10s;
+}
+#TextArea2 p:nth-child(4){
+    animation-delay: 15s;
+}
+.navbar-brand{
+    color: whitesmoke !important;
+    pointer-events: none;
+    font-weight: 900;
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.navbar-nav a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar-nav a:hover{
+    
+    box-shadow: 0px 3px 0px 0px greenyellow;
+}
+   
+    
